@@ -1,0 +1,103 @@
+/* div.nesto i tab pravi div i klasu*/
+*
+{
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../img/pattern.jfif")
+}
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header
+{
+    padding: 10px;
+}
+
+.header img
+{
+    width: 150px;
+    height: 150px;
+}
+
+ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+ul li
+{
+    float: left; /* ako hocemo sa leve strane samo ovo izbrisem */
+    width: 20%;
+    text-align: center;
+    height: 40px;
+    font-size: 35px;
+    background-color: azure;
+}
+
+ul li a{
+    text-decoration: none;
+    display: block;
+}
+ul li a:hover
+{
+    background-color: brown;
+}
+.centralniSadrzaj
+{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: bisque;
+}
+
+.leviSidebar
+{
+    width: 15%;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.desniSidebar
+{
+    float: right;
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+}
+.centralniDeo
+{
+    width: 65%;
+    display: inline-block;
+}
+.centralniDeo img{
+    width: 100%;
+}
+.centralniDeo .proizvod
+{
+    width: 45%;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    background-color: bisque;
+}
+
+.desniSidebar .vest
+{
+    width: 10%;
+    display: block;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    background-color: bisque;
+}
+.desniSidebar img
+{
+    width: 170px;
+    height: 300px;
+}
